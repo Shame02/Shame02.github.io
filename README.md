@@ -23,6 +23,34 @@
 </p>
 
 ---
+## 🎭 Немного обо мне в мемах
+
+```javascript
+const aboutMe = {
+  name: "Дмитрий",
+  age: new Date().getFullYear() - [15.03.2005],
+  location: "🏠 [Ufa]",
+  status: "💻 Кодинг 24/7",
+  
+  // Моя жизнь в двух словах
+  lifeMotto: "Работает? Не трогай!",
+  coffeeConsumption: "☕ Бесконечность",
+  
+  // Мои суперспособности
+  superPowers: [
+    "Нахожу баги до того, как они появились",
+    "Могу объяснить код коту (коту всё равно)",
+    "Открываю холодильник 100 раз за час"
+  ],
+  
+  get bio() {
+    return `👨‍💻 ${this.name} — разработчик, который пишет код быстрее, чем пьет кофе. 
+    За свою карьеру сломал ${Math.floor(Math.random() * 1000)} продакшенов и починил ${Math.floor(Math.random() * 100)} из них. 
+    Специализируюсь на превращении кофе в код.`;
+  }
+};
+
+console.log(aboutMe.bio);
 
 
 📊 GitHub Статистика (не накручивал, честно!)
@@ -56,12 +84,7 @@ https://novatorem.vercel.app/api/spotify
 
 
 
-🏆 GitHub Трофеи (я их коллекционирую вместо наклеек)
-<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=[твой-username]&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" /> </p>
 
-
-🐍 Змейка, поедающая мои коммиты
-<p align="center"> <img src="https://github.com/Shame02/Shame02/blob/output/github-contribution-grid-snake-dark.svg" alt="snake" /> </p>
 
 
 
@@ -81,34 +104,5 @@ Markdown     45 mins         ▒░░░░░░░░░░░░░░░░
 
 
 
-
-## 🎭 Немного обо мне в мемах
-
-```javascript
-const aboutMe = {
-  name: "Дмитрий",
-  age: new Date().getFullYear() - [15.03.2005],
-  location: "🏠 [Ufa]",
-  status: "💻 Кодинг 24/7",
-  
-  // Моя жизнь в двух словах
-  lifeMotto: "Работает? Не трогай!",
-  coffeeConsumption: "☕ Бесконечность",
-  
-  // Мои суперспособности
-  superPowers: [
-    "Нахожу баги до того, как они появились",
-    "Могу объяснить код коту (коту всё равно)",
-    "Открываю холодильник 100 раз за час"
-  ],
-  
-  get bio() {
-    return `👨‍💻 ${this.name} — разработчик, который пишет код быстрее, чем пьет кофе. 
-    За свою карьеру сломал ${Math.floor(Math.random() * 1000)} продакшенов и починил ${Math.floor(Math.random() * 100)} из них. 
-    Специализируюсь на превращении кофе в код.`;
-  }
-};
-
-console.log(aboutMe.bio);
 
 
