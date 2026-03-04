@@ -61,7 +61,7 @@ https://novatorem.vercel.app/api/spotify
 
 
 🐍 Змейка, поедающая мои коммиты
-<p align="center"> <img src="https://github.com/[твой-username]/[твой-username]/blob/output/github-contribution-grid-snake-dark.svg" alt="snake" /> </p>
+<p align="center"> <img src="https://github.com/Shame02/Shame02/blob/output/github-contribution-grid-snake-dark.svg" alt="snake" /> </p>
 
 
 
